@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (progress < 0) progress = 0;
     if (progress > 1) progress = 1;
     return Scaffold(
-      appBar: AppBar(title: Text('전역일 계산기'), centerTitle: true),
+      appBar: AppBar(title: Text('전역일 계산기'), centerTitle: true,backgroundColor: Colors.white,),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -178,19 +178,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         children: [
                           Text('내 입대일은'),
-                          Spacer(),
-                          GestureDetector(
-                            child: Icon(
-                              Icons.settings,
-                              size: 15,
-                              color: Colors.grey,
-                            ),
-                            onTap: () {
-                              _showDatePicker();
-                            },
-                          ),
+                          
                         ],
                       ),
+                      
                       Row(
                         children: [
                           Text(

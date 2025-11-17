@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/screen/HOME_SCREEN/home_screen%20_v2.dart';
 import 'package:myapp/screen/HOME_SCREEN/home_screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
           onSurface: Colors.black,
         ),
       ),
-      home: HomeScreen(),
+      home: HomeScreenV2(),
     );
   }
 }
