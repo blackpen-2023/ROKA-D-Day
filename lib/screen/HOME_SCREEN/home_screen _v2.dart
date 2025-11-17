@@ -286,9 +286,9 @@ Container(
                       ),
                     );
                   },
-                ),
-                
-                SizedBox(height: 100),
+                ), SizedBox(height: 10),
+                Text("© 2025 BAE GYUMIN.",style: TextStyle(fontSize: 10,color: Colors.grey.shade600),),
+                SizedBox(height: 50),
               ],
             ),
           ],
